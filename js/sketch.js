@@ -1,6 +1,6 @@
 let cols, rows;
 let scale = 20;
-let w = window.innerWidth;
+let w = window.innerWidth + 300;
 let h = 1000;
 
 let r;
@@ -31,11 +31,14 @@ function setup() {
 
 function windowResized() {
     resizeCanvas(window.innerWidth, window.innerHeight);
+
+    w = window.innerWidth + 300;
+
 }
 
 function draw() {
 
-  flying -= 0.1;
+  flying -= 0.04;
   let yoff = flying;
   for (let y = 0; y < rows; y++) {
     let xoff = 0;
