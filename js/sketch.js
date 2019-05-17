@@ -49,10 +49,10 @@ function draw() {
     yoff += 0.2;
   }
 
-  background(0);
+  background(40, 38, 35);
   translate(0, 100);
   rotateX(PI/2.6);
-  fill(r, g ,b, a);
+  fill(55, 111, 110);
   translate(-w/2, -h/2);
   for (let y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);

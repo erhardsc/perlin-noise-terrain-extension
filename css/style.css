@@ -13,17 +13,19 @@ body {
 }
 
 #time {
-  color: #848484;
-  font-family: roboto-light;
-  font-size: 2em;
+  color: #CFC7B0;
+  font-family: oswald;
+  font-weight: 200;
+  font-size: 1.5em;
   padding-top: 1em;
-  letter-spacing: 11px;
+  letter-spacing: 8px;
 }
 
-.example-one {
-  font-family: roboto-light;
+.welcome {
+  font-family: montserrat;
+  font-weight: 200;
   font-size: 3.2em;
-  color: #e4e4e4;
+  color: #C2A537;
   position: relative;
   line-height: 60px;
   letter-spacing: 20px;
