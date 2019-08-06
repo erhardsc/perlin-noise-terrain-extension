@@ -1,5 +1,5 @@
 Perlin Noise Start Page
-================
+=================
 
 Custom start page and new tab page for Google Chrome.
 
